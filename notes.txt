@@ -32,3 +32,9 @@ lets a class (the child/subclass) reuse and extend the behavior of another class
 Do I need __init__ in the child class?
 No, if the child doesn’t add any new constructor parameters and the parent’s initialization is already correct for the child.
 
+Method Overriding means:
+A child class defines a method with the same name as a method in the parent class, and provides its own version of that method.
+Change the behavior it inherited
+Add new behavior
+Customize/extend the parent’s method
+Use the same method name but different implementation
