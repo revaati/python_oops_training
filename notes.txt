@@ -50,3 +50,15 @@ Child class inherits everything unless overridden
 Python supports all types of inheritance
 MRO matters in multiple and hybrid inheritance
 
+
+
+
+Object and Class:
+class - blueprint
+Object - Real instance(concrete realization of class)
+How - class defines attributes + methods
+Object stires the actual data in memory
+
+class Car:
+    def __init__(self, brand):
+
