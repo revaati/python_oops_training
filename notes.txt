@@ -21,3 +21,14 @@ syntax -1. def <function_name>():
                 return statement                  return a+b
             function_name(para1, para2)       add(4,5)
 Object is a blueprint of the class.
+
+
+inheritance:
+lets a class (the child/subclass) reuse and extend the behavior of another class (the parent/base/superclass).
+1.Reuse code
+2.Add/override behavior
+3.Create specializations (e.g., Animal → Dog, Cat)
+
+Do I need __init__ in the child class?
+No, if the child doesn’t add any new constructor parameters and the parent’s initialization is already correct for the child.
+
