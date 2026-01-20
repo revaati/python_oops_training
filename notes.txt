@@ -10,6 +10,7 @@ self is just the first parameter of the instance method. if we remove self then 
 If we dont use self. then the data is stored as local variable and not on object.. so it dissappears after init.
 
 Function :
+A Python function is a named section of a program that performs a specific task and, optionally, returns a value
 block of reusable code that performs same task.
 syntax -1. def <function_name>():
             statetement
@@ -20,6 +21,11 @@ syntax -1. def <function_name>():
         3. def <fuction_name>(para, para): // def add(a,b)
                 return statement                  return a+b
             function_name(para1, para2)       add(4,5)
+
+section of program that performs specific task and returns val.
+why - tp reuse code and its a great way to short , concise and readable code.
+
+
 Object is a blueprint of the class.
 
 
