@@ -25,9 +25,13 @@ Object is a blueprint of the class.
 
 inheritance:
 lets a class (the child/subclass) reuse and extend the behavior of another class (the parent/base/superclass).
+Inheritance allows one class (child) to reuse and extend the properties and methods of another class (parent).
 1.Reuse code
-2.Add/override behavior
+2.Add/modify behavior
 3.Create specializations (e.g., Animal → Dog, Cat)
+4.Avoid duplication
+5.Organize programs better
+6.Implement polymorphism (method overriding)
 
 Do I need __init__ in the child class?
 No, if the child doesn’t add any new constructor parameters and the parent’s initialization is already correct for the child.
@@ -38,3 +42,11 @@ Change the behavior it inherited
 Add new behavior
 Customize/extend the parent’s method
 Use the same method name but different implementation
+
+
+pass = placeholder for empty class or method
+super() = call parent’s method, works with multiple inheritance
+Child class inherits everything unless overridden
+Python supports all types of inheritance
+MRO matters in multiple and hybrid inheritance
+
