@@ -1,0 +1,6 @@
+Python is OOP language which implements all OOPS concepts such as inheritance , Encapsulation , Abstraction and Polymorphism.
+OOPs isbasically an object oriented programmingparadigm which helps in organizing the code at one place.Instead of revolving around the function and the logic, it focuses ob object.OOPs helps in making the code reusable , modular , clean and easy to maintain.
+
+Class:
+Classes provide means of bundling the data and functionaly together. syntax - Class <class_name>:
+Object is a blueprint of the class.
