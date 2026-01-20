@@ -21,3 +21,7 @@ syntax -1. def <function_name>():
                 return statement                  return a+b
             function_name(para1, para2)       add(4,5)
 Object is a blueprint of the class.
+
+
+
+
