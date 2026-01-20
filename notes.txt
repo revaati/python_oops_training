@@ -61,4 +61,11 @@ Object stires the actual data in memory
 
 class Car:
     def __init__(self, brand):
+        self.brand = brand
+c = Car("BMW")
 
+why - Groups data and behaviour together and avoids random global functions
+where do we use it- real world modeling , system design , large databases
+
+
+constructor 
