@@ -1,0 +1,33 @@
+Python is OOP language which implements all OOPS concepts such as inheritance , Encapsulation , Abstraction and Polymorphism.
+OOPs isbasically an object oriented programmingparadigm which helps in organizing the code at one place.Instead of revolving around the function and the logic, it focuses ob object.OOPs helps in making the code reusable , modular , clean and easy to maintain.
+
+Class:
+Classes provide means of bundling the data and functionaly together. syntax - Class <class_name>:
+__init__ is used to give each object its own data , for default configure , for input validation.
+syntax - def __init__(self , parameter)
+self.data = "data"
+self is just the first parameter of the instance method. if we remove self then it will be stored local var and not on the object. If we dont use self we will get typeerror!! 
+If we dont use self. then the data is stored as local variable and not on object.. so it dissappears after init.
+
+Function :
+A Python function is a named section of a program that performs a specific task and, optionally, returns a value
+block of reusable code that performs same task.
+syntax -1. def <function_name>():
+            statetement
+            function_name()
+        2. def <function_name>(para):   // def greet(name):
+            statement(para)                 print("Hello! ", name)
+            function_name(val)              greet("Revati")
+        3. def <fuction_name>(para, para): // def add(a,b)
+                return statement                  return a+b
+            function_name(para1, para2)       add(4,5)
+
+section of program that performs specific task and returns val.
+why - tp reuse code and its a great way to short , concise and readable code.
+
+
+Object is a blueprint of the class.
+
+
+
+
