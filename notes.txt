@@ -68,4 +68,7 @@ why - Groups data and behaviour together and avoids random global functions
 where do we use it- real world modeling , system design , large databases
 
 
-constructor 
+constructor (__init__) - special method to initialize attributes of newly created Object
+why - to initialize object state
+mandatory setup
+
