@@ -1,0 +1,88 @@
+Python is OOP language which implements all OOPS concepts such as inheritance , Encapsulation , Abstraction and Polymorphism.
+OOPs isbasically an object oriented programmingparadigm which helps in organizing the code at one place.Instead of revolving around the function and the logic, it focuses ob object.OOPs helps in making the code reusable , modular , clean and easy to maintain.
+
+Class:
+Classes provide means of bundling the data and functionaly together. syntax - Class <class_name>:
+__init__ is used to give each object its own data , for default configure , for input validation.
+syntax - def __init__(self , parameter)
+self.data = "data"
+self is just the first parameter of the instance method. if we remove self then it will be stored local var and not on the object. If we dont use self we will get typeerror!! 
+If we dont use self. then the data is stored as local variable and not on object.. so it dissappears after init.
+
+Function :
+block of reusable code that performs same task.
+syntax -1. def <function_name>():
+            statetement
+            function_name()
+        2. def <function_name>(para):   // def greet(name):
+            statement(para)                 print("Hello! ", name)
+            function_name(val)              greet("Revati")
+        3. def <fuction_name>(para, para): // def add(a,b)
+                return statement                  return a+b
+            function_name(para1, para2)       add(4,5)
+Object is a blueprint of the class.
+
+
+inheritance:
+lets a class (the child/subclass) reuse and extend the behavior of another class (the parent/base/superclass).
+Inheritance allows one class (child) to reuse and extend the properties and methods of another class (parent).
+1.Reuse code
+2.Add/modify behavior
+3.Create specializations (e.g., Animal → Dog, Cat)
+4.Avoid duplication
+5.Organize programs better
+6.Implement polymorphism (method overriding)
+
+Do I need __init__ in the child class?
+No, if the child doesn’t add any new constructor parameters and the parent’s initialization is already correct for the child.
+
+Method Overriding means:
+A child class defines a method with the same name as a method in the parent class, and provides its own version of that method.
+Change the behavior it inherited
+Add new behavior
+Customize/extend the parent’s method
+Use the same method name but different implementation
+
+
+pass = placeholder for empty class or method
+super() = call parent’s method, works with multiple inheritance
+Child class inherits everything unless overridden
+Python supports all types of inheritance
+MRO matters in multiple and hybrid inheritance
+
+
+
+
+Object and Class:
+class - blueprint
+Object - Real instance(concrete realization of class)
+How - class defines attributes + methods
+Object stires the actual data in memory
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+c = Car("BMW")
+
+why - Groups data and behaviour together and avoids random global functions
+where do we use it- real world modeling , system design , large databases
+
+
+constructor (__init__) - special method to initialize attributes of newly created Object
+why - to initialize object state
+mandatory setup
+
+
+Encapsulation - Binding data + methods + restrciting access
+how - Public = var , Protected = _var (intended for internal use only), Private = __var (name -mangled to prevent accidental access)
+why - to prevent misuse 
+     control data access
+     maintain invariants(property of an entity that remains unchanged throughout the lifetime of that entity)
+     protects internal state (keeps data safe accidental / unautorized access)
+     makes code easier to maintain
+where it is used- banking systems , Use authentication ,APIs
+Encapsulation hides data where as abstraction hidea the complexity
+wraps variables and methods into single unit and hiding the internal state
+
+getter - is read only val
+setter - set / update the private values
