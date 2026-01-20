@@ -79,3 +79,28 @@ class Child(Father , Mother):
 
 c = Child()
 c.name_is()
+
+# Hybrid Inheritance
+
+class Person:
+    def intro(self):
+        print("I am a Person")
+
+class Father(Person):
+    def intro(self):
+        print("I am a Father")
+        super().intro()
+
+class Mother(Person):
+    def intro(self):
+        print("I am a Mother")
+        super().intro()
+
+class Child(Father, Mother):
+    def intro(self):
+        print("I am a Child")
+        super().intro()
+
+c = Child()
+c.intro()
+
