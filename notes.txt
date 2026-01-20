@@ -83,3 +83,6 @@ why - to prevent misuse
 where it is used- banking systems , Use authentication ,APIs
 Encapsulation hides data where as abstraction hidea the complexity
 wraps variables and methods into single unit and hiding the internal state
+
+getter - is read only val
+setter - set / update the private values
