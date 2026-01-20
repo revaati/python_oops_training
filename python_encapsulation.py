@@ -34,3 +34,6 @@ class student:
 s = student("revati" , 70)
 s.show()
 # print(s.__mark)
+
+
+#
