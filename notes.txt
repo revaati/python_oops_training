@@ -72,3 +72,14 @@ constructor (__init__) - special method to initialize attributes of newly create
 why - to initialize object state
 mandatory setup
 
+
+Encapsulation - Binding data + methods + restrciting access
+how - Public = var , Protected = _var (intended for internal use only), Private = __var (name -mangled to prevent accidental access)
+why - to prevent misuse 
+     control data access
+     maintain invariants(property of an entity that remains unchanged throughout the lifetime of that entity)
+     protects internal state (keeps data safe accidental / unautorized access)
+     makes code easier to maintain
+where it is used- banking systems , Use authentication ,APIs
+Encapsulation hides data where as abstraction hidea the complexity
+wraps variables and methods into single unit and hiding the internal state
