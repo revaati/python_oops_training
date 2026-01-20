@@ -3,4 +3,9 @@ OOPs isbasically an object oriented programmingparadigm which helps in organizin
 
 Class:
 Classes provide means of bundling the data and functionaly together. syntax - Class <class_name>:
+__init__ is used to give each object its own data , for default configure , for input validation.
+syntax - def __init__(self , parameter)
+self.data = "data"
+self is just the first parameter of the instance method. if we remove self then it will be stored local var and not on the object. If we dont use self we will get typeerror!! 
+If we dont use self. then the data is stored as local variable and not on object.. so it dissappears after init.
 Object is a blueprint of the class.
