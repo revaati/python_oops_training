@@ -86,3 +86,23 @@ wraps variables and methods into single unit and hiding the internal state
 
 getter - is read only val
 setter - set / update the private values
+
+
+Abstraction 
+Hiding complexity and showing only whats necessary
+dont need to know how soemthing works internally 
+just need to know what it does
+
+why use - hiding unnecessary details / complexities
+          make code easier to use
+          focuses only on imp operations
+          easier to maintain and modularity
+
+uses - abstract class and abstract methods
+
+abstract class - cant be instantiated (cant create object of abstract class directly.)
+                 only exists to define blueprint
+                 lets define common interface for multiple subclasses
+
+abstract method - method with no implementation in abstract class 
+                    subclass must be implement it
