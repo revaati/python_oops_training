@@ -28,6 +28,8 @@ Polymorphism - using same method name in different classes , where each class ha
     works across different classes
     makes code flexible and reusable
 
+dispatch - used to select between different implementation of same method in different signatures or types of list
+
     
 
 
