@@ -23,5 +23,11 @@ syntax -1. def <function_name>():
 Object is a blueprint of the class.
 
 
+Polymorphism - using same method name in different classes , where each class has its own behaviour.
+    same method ,different behaviour    
+    works across different classes
+    makes code flexible and reusable
+
+    
 
 
