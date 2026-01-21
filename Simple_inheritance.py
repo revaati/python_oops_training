@@ -2,15 +2,10 @@ class Teacher:
     def teach(self):
         print("Teach math and Science")
 
-class Coach:
-    def train(self):
-        print("Trains in foootball and athletics")
-
-class Student(Teacher , Coach):
+class Student(Teacher):
     def activities(self):
-        print("Student is performingin both academics and sports.")
+        print("Student is performing well in academics .")
         self.teach()
-        self.train()
 
 
 s = Student()
